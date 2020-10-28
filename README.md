@@ -63,7 +63,7 @@ WW_SQ-60G-9292R.MP3		97005.005
 
 ## Notes 
 
-1. The program generates two cart numbers one for 30 second commercials and one for 60 second commercials. 
+1. The program generates two cart numbers one for 30 second commercials and one for 60 second commercials and then it increments the cut number for each respectively. 
 2. To change the cart numbers just modify the following variables in the script: 
 
 ``` 
