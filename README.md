@@ -11,7 +11,7 @@ python parseSpots.py ~/directory-containing-mp3s-from-cdn-site
 It should be apparent that the script takes a single parameter that is the path where the mp3 files exist. 
 
 ## Expected Console Output 
-
+```
 WW_AHNL85650000.MP3		97004.000
 WW_BASP10M30BAB.MP3		97004.001
 WW_EXERGEN1019A.MP3		97004.002
@@ -33,9 +33,11 @@ WW_ROCK00911000.MP3		97005.002
 WW_SMBB-CEOJOIN.MP3		97005.003
 WW_SMZRML60FREE.MP3		97005.004
 WW_SQ-60G-9292R.MP3		97005.005
+```
 
 ## Resulting Files Created 
 
+```
 97004.000.wav
 97004.001.wav
 97004.002.wav
@@ -57,14 +59,17 @@ WW_SQ-60G-9292R.MP3		97005.005
 97005.003.wav
 97005.004.wav
 97005.005.wav
+```
 
 ## Notes 
 
 1. The program generates two cart numbers one for 30 second commercials and one for 60 second commercials. 
 2. To change the cart numbers just modify the following variables in the script: 
- 
+
+``` 
 code30 = '97004'
 code60 = '97005'
+```
 
 ## Todo 
 
